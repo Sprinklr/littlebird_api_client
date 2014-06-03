@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = "littlebird_api_client"
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ["Devin Gaffney"]
   spec.email         = ["devin@getlittlebird.com"]
   spec.summary       = %q{A thin wrapper for the Little Bird api (http://api.getlittlebird.com/index.html)}
