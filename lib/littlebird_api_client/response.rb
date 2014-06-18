@@ -14,7 +14,6 @@ module LittleBird
     end
 
     def interpret(response, cast_class)
-      binding.pry
       raise error(response), response["error"] if response_is_an_error(response)
       if cast_class.class == Array
         return iterate(response, cast_class.first)
